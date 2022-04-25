@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Orbitron:wght@500&family=Press+Start+2P&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+  background: #5d5857;
+}
+.nav {
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+.again {
+  margin-left: 15px;
+  margin-right: auto;
+  width: 150px;
+  height: 80px;
+  background-color: darkcyan;
+  box-shadow: 8px 2px 32px 0px rgba(0, 0, 0, 0.82);
+  color: black;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+}
+.again:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.between {
+  margin-right: 15px;
+  font-size: 15px;
+  padding-top: 20px;
+}
+.guess-my-number {
+  text-align: center;
+  margin-top: 50px;
+}
+.guess-my-number h1 {
+  font-size: 30px;
+}
+.number {
+  width: none;
+  margin-top: 60px;
+  font-size: 50px;
+}
+.guess-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.guess {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.check-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.check {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  border: none;
+  border-radius: 10px 0px 10px;
+}
+.check:hover {
+  opacity: 25%;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+.message {
+  margin-bottom: 30px;
+}
+
+.label-score {
+  margin-bottom: 50px;
+}
